@@ -1,2 +1,1 @@
-
-            palavra_formada += '*'
+1000
