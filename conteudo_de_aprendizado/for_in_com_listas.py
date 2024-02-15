@@ -1,5 +1,5 @@
 """
-for in com listas
+for in com listas em python
 """
 lista = ['Maria', 'Helena', 'Luiz']
 i = 0
