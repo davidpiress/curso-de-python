@@ -3,23 +3,19 @@
 # ao invés de receber a instância no primeiro
 # parâmetro, receberemos a própria classe.
 
-class Pessoa:
+class Pesssoa:
     def __init__(self, nome, idade):
         self.nome = nome
         self.idade = idade
 
     @classmethod
-    def com_string(cls):
-        print('usando strinfo com cls')
-
-    @classmethod 
-    def metodo_hey(cls, nome):
-        return nome, 30
+    def nome_e_idade(cls, nome, idade):
+        return f'{nome}, {idade}'
 
 
-    
+
+p1 = Pesssoa.nome_e_idade('davi', 20)
+print(p1)
 
 
-p1 = Pessoa()
-Pessoa.metodo_hey('maria')
-Pessoa.com_string()
+
