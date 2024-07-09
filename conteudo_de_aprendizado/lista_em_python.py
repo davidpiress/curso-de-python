@@ -67,3 +67,38 @@ lista3 = 'josafa', 'nanda', 'vanessa'
 lista4 = 1, 2, 3, 4, 5
 print(list(lista3 + lista4))
 
+########################################################################
+print()
+
+lista5 = ['davi', 2, True, 1.3]
+print(lista5[-3])# buscando indice da lista
+lista5[-3] = 'maria'# mudando o valor de acordo com o indice
+print(lista5)
+print()
+
+lista5 = ['davi', 2, True, 1.3]
+lista5.append('maria')
+lista5.append('joao')
+lista5.append('jussara')
+print(lista5)
+print()
+
+lista5.pop()
+print(lista5)
+
+lista5.pop(1)
+print(lista5)
+
+lista_a = [1, 2, 3, 4]
+lista_b = [5, 6, 7, 8]
+lista_c = lista_a + lista_b
+print(lista_c)
+lista_a.extend(lista_b)
+print(lista_a)
+
+
+
+
+
+
+
